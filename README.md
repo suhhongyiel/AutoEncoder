@@ -2,10 +2,6 @@
 
 This repository contains PyTorch/MONAI code for training and analysing 3-D auto-encoders (AEs) on PET brain images (**AV45** and **TAU** tracers).
 
-<p align="center">
-  <img src="analysis/holdout_label_compare_TAU.png" alt="Example reconstruction" width="600"/>
-</p>
-
 ## Features
 
 * ⚡ **Training** – `code/train_ae.py` supports mixed precision, min-max scaling, smart cropping (96×128×96) and automatic experiment bookkeeping.
@@ -57,18 +53,6 @@ python analysis/visualize_holdout.py \
   --results_dir results \
   --csv_dir /path/to/source_data \
   --analysis_dir analysis
-```
-
-## Citation
-If you use this code in your research, please cite:
-
-```bibtex
-@inproceedings{YourName2025AutoEncoderPET,
-  title     = {Self-Supervised Auto-Encoding of Multi-Tracer PET for Early Alzheimer's Detection},
-  author    = {Your Name and Collaborators},
-  booktitle = {MICCAI},
-  year      = {2025}
-}
 ```
 
 ## License
