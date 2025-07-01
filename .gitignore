@@ -1,0 +1,23 @@
+# Ignore Python cache and logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual envs
+venv/
+.env/
+
+# Data and results (large files)
+data/
+results/
+analysis/*.png
+*.csv
+*.nii*
+*.pt
+
+# IDE / editor configs
+.vscode/
+.idea/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/ 
