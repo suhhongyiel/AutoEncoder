@@ -20,4 +20,8 @@ analysis/*.png
 .idea/
 
 # Jupyter notebooks checkpoints
-.ipynb_checkpoints/ 
+.ipynb_checkpoints/
+
+# Allow two PNG example images
+!analysis/holdout_label_compare_AV45.png
+!analysis/holdout_label_compare_TAU.png 

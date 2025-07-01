@@ -55,5 +55,29 @@ python analysis/visualize_holdout.py \
   --analysis_dir analysis
 ```
 
+## Example Results (hold-out subjects)
+
+### AV45
+
+![AV45 hold-out recon](analysis/holdout_label_compare_AV45.png)
+
+### TAU
+
+![TAU hold-out recon](analysis/holdout_label_compare_TAU.png)
+
+Rows correspond to diagnosis labels (AD, CN, MCI). Columns show the original PET slice followed by reconstructions from each trained auto-encoder. Numbers below each reconstruction are SSIM scores (higher is better).
+
+## Citation
+If you use this code in your research, please cite:
+
+```bibtex
+@inproceedings{YourName2025AutoEncoderPET,
+  title     = {Self-Supervised Auto-Encoding of Multi-Tracer PET for Early Alzheimer's Detection},
+  author    = {Your Name and Collaborators},
+  booktitle = {MICCAI},
+  year      = {2025}
+}
+```
+
 ## License
 This project is released under the MIT License – see `LICENSE` for details. 
